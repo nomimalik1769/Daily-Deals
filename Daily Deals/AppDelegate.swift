@@ -16,7 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-       
+      // var tabBar = UITabBar()
+        UITabBar.appearance().tintColor = UIColor.red
+//        tabBar.layer.borderWidth = 2
+//        tabBar.layer.borderColor = UIColor(red:0.0/255.0, green:0.0/255.0, blue:0.0/255.0, alpha:1).cgColor
+//        tabBar.clipsToBounds = true
+        
         return true
     }
 
