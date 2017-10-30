@@ -30,7 +30,6 @@
 		8436AEAD1FA34D3C00A402C5 /* ResturantsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantsCell.swift; sourceTree = "<group>"; };
 		8436AEAF1FA360D800A402C5 /* CatagoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatagoriesCell.swift; sourceTree = "<group>"; };
 		84F6559C1FA43EDA006BECC8 /* secondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondTableViewCell.swift; sourceTree = "<group>"; };
-		84F655A21FA48E8D006BECC8 /* button1-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button1-small.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +68,6 @@
 				8436AE9D1FA31FAB00A402C5 /* Main.storyboard */,
 				84F6559C1FA43EDA006BECC8 /* secondTableViewCell.swift */,
 				8436AEAD1FA34D3C00A402C5 /* ResturantsCell.swift */,
-				84F655A21FA48E8D006BECC8 /* button1-small.png */,
 				8436AEA01FA31FAB00A402C5 /* Assets.xcassets */,
 				8436AEAB1FA34CB500A402C5 /* Pizza1.jpg */,
 				8436AEA21FA31FAB00A402C5 /* LaunchScreen.storyboard */,

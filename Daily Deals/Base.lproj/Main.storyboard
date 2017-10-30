@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8Fj-EK-90T">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pAg-cl-G17">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Food-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Daily_Deals" customModuleProvider="target" sceneMemberID="viewController">
@@ -107,17 +107,25 @@
                                         <rect key="frame" x="18" y="19" width="26" height="26"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="icons8-settings"/>
+                                        <connections>
+                                            <segue destination="gxa-EP-sq3" kind="show" id="edS-Wg-kRB"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aaj-UF-9jE">
                                         <rect key="frame" x="249" y="19" width="80" height="26"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
                                         <state key="normal" image="icons8-future"/>
+                                        <connections>
+                                            <segue destination="OOm-wE-34U" kind="show" id="MAD-6n-9lu"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0tE-yj-g81">
                                         <rect key="frame" x="87" y="17" width="130" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="San Fransico ▼"/>
+                                        <state key="normal" title="San Fransico ▼">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -126,7 +134,9 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" image="button2-small" landscapeImage="button2-small" id="in2-2u-0Lc"/>
+                    <tabBarItem key="tabBarItem" title="Food" image="button2-30" landscapeImage="button2-30" id="in2-2u-0Lc">
+                        <color key="badgeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBarItem>
                     <navigationItem key="navigationItem" id="MHt-nw-8TR">
                         <barButtonItem key="leftBarButtonItem" title="Item" image="icons8-settings" landscapeImage="icons8-settings" id="scQ-p4-Xsn">
                             <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -236,17 +246,52 @@
             </objects>
             <point key="canvasLocation" x="-836" y="908"/>
         </scene>
-        <!--Item-->
+        <!--Drinks-->
         <scene sceneID="SsL-dJ-XVG">
             <objects>
                 <viewController id="b7N-w6-qN8" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="agH-Nj-rvu">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LnU-d9-Y7Y">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TEC-k7-sOf">
+                                        <rect key="frame" x="18" y="19" width="26" height="26"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="icons8-settings"/>
+                                        <connections>
+                                            <segue destination="gxa-EP-sq3" kind="show" id="fE0-8A-3Or"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rir-oY-N31">
+                                        <rect key="frame" x="249" y="19" width="80" height="26"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
+                                        <state key="normal" image="icons8-future"/>
+                                        <connections>
+                                            <segue destination="OOm-wE-34U" kind="show" id="GOM-WX-hX5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eXs-1V-uBr">
+                                        <rect key="frame" x="87" y="17" width="130" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="San Fransico ▼">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="mSI-f2-kZF"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="button3-small" landscapeImage="button3-small" id="Ka4-5o-L8D"/>
+                    <tabBarItem key="tabBarItem" title="Drinks" image="button3-30" landscapeImage="button3-small" id="Ka4-5o-L8D">
+                        <color key="badgeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UE8-tv-cwb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -255,11 +300,16 @@
     </scenes>
     <resources>
         <image name="Pizza1.jpg" width="2560" height="1600"/>
-        <image name="button2-small" width="60" height="60"/>
+        <image name="button2-30" width="30" height="30"/>
+        <image name="button3-30" width="30" height="30"/>
         <image name="button3-small" width="60" height="60"/>
         <image name="icons8-future" width="26" height="26"/>
         <image name="icons8-more" width="40" height="40"/>
         <image name="icons8-more-than" width="40" height="40"/>
         <image name="icons8-settings" width="26" height="26"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="edS-Wg-kRB"/>
+        <segue reference="MAD-6n-9lu"/>
+    </inferredMetricsTieBreakers>
 </document>
